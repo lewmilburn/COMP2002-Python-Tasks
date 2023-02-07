@@ -7,9 +7,12 @@
 #       COMPLETED 7TH FEB 2023       #
 # ---------------------------------- #
 
+# Get required libraries
 import numpy as np
 import matplotlib.pyplot as plt
 
+# Generate values
 x = np.linspace(-np.pi, np.pi, 256, True)
 
+# Plot the values
 plt.plot(x, np.sin(x))
