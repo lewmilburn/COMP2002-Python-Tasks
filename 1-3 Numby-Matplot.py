@@ -14,7 +14,10 @@ import matplotlib.pyplot as plt
 # Generate values
 x = np.linspace(-np.pi, np.pi, 256, True)
 
-# Plot the values
+# Plot the values in a line graph
 plt.plot(x, np.sin(x))
+plt.show()
 
+# Plot the values in a scatter graph
+plt.scatter(x, np.sin(x))
 plt.show()
