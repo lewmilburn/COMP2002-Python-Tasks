@@ -16,3 +16,5 @@ x = np.linspace(-np.pi, np.pi, 256, True)
 
 # Plot the values
 plt.plot(x, np.sin(x))
+
+plt.show()
